@@ -31,6 +31,14 @@ Systems are operated with strict control over performance, updates, and risk exp
 
 ## Infrastructure
 
+<div align="center">
+Production-grade environment for validator execution and system reliability.<br/>
+Focus on uptime, observability, and controlled service operation.<br/>
+Core services are isolated, monitored, and optimized for continuous performance.<br/>
+</div>
+
+<br/>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Linux-Operational-0D0D0D?style=for-the-badge&logo=linux&logoColor=B026FF"/>
   <img src="https://img.shields.io/badge/Docker-Managed-0D0D0D?style=for-the-badge&logo=docker&logoColor=B026FF"/>
@@ -60,29 +68,43 @@ All changes are reviewed and tested before being deployed to the production envi
 ## Security
 
 <div align="center">
-Infrastructure is designed to minimize operational risks and protect validator integrity.<br/>
-Signing environments are isolated and monitored to prevent critical failures.<br/>
+Infrastructure is designed to minimize operational risk and protect validator integrity.<br/>
+Key management and signing processes are isolated and strictly controlled.<br/>
+Security layers are continuously monitored for anomalies and failures.<br/>
 </div>
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-TMKMS-0D0D0D?style=for-the-badge&logo=rust&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Key%20Management-0D0D0D?style=for-the-badge&logo=1password&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Hardening-0D0D0D?style=for-the-badge&logo=shield&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Monitoring-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
+</p>
 
 ---
 
 ## Stack
 
 <div align="center">
-Core technologies used for validator deployment, monitoring, and maintenance.<br/>
-The stack is selected for stability, observability, and predictable performance.<br/>
+Tooling for automation, integrations, and data-driven validator operations.<br/>
+Includes scripting, backend utilities, and AI-assisted workflows.<br/>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Prometheus-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Grafana-0D0D0D?style=for-the-badge&logo=grafana&logoColor=B026FF"/>
   <img src="https://img.shields.io/badge/-Go-0D0D0D?style=for-the-badge&logo=go&logoColor=B026FF"/>
   <img src="https://img.shields.io/badge/-Python-0D0D0D?style=for-the-badge&logo=python&logoColor=B026FF"/>
   <img src="https://img.shields.io/badge/-Bash-0D0D0D?style=for-the-badge&logo=gnubash&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Git-0D0D0D?style=for-the-badge&logo=git&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-CI%2FCD-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-REST%20API-0D0D0D?style=for-the-badge&logo=fastapi&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-WebSocket-0D0D0D?style=for-the-badge&logo=socketdotio&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Automation-0D0D0D?style=for-the-badge&logo=ansible&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Logging-0D0D0D?style=for-the-badge&logo=elastic&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Alerting-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-AI%20Assisted-0D0D0D?style=for-the-badge&logo=openai&logoColor=B026FF"/>
 </p>
 
 ---
