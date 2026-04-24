@@ -80,4 +80,6 @@ Security through control.<br/>
 Stability through continuous operation.
 </div>
 
-
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:6A0DAD&height=25" width="90%"/>
+</p>
