@@ -68,8 +68,21 @@ Signing environments are isolated and monitored to prevent critical failures.<br
 
 ## Stack
 
+<div align="center">
+Core technologies used for validator deployment, monitoring, and maintenance.<br/>
+The stack is selected for stability, observability, and predictable performance.<br/>
+</div>
+
+<br/>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,docker,prometheus,grafana,go,python,bash" height="55"/>
+  <img src="https://img.shields.io/badge/-Linux-0D0D0D?style=for-the-badge&logo=linux&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Docker-0D0D0D?style=for-the-badge&logo=docker&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Prometheus-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Grafana-0D0D0D?style=for-the-badge&logo=grafana&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Go-0D0D0D?style=for-the-badge&logo=go&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Python-0D0D0D?style=for-the-badge&logo=python&logoColor=B026FF"/>
+  <img src="https://img.shields.io/badge/-Bash-0D0D0D?style=for-the-badge&logo=gnubash&logoColor=B026FF"/>
 </p>
 
 ---
