@@ -47,6 +47,8 @@ Validator operations are maintained through continuous monitoring and controlled
 All changes are reviewed and tested before being deployed to the production environment.<br/>
 </div>
 
+<br/>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Consensus-Stable-1A1A1A?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Performance-Optimized-1A1A1A?style=for-the-badge"/>
@@ -79,6 +81,8 @@ Reliability through discipline.<br/>
 Security through control.<br/>
 Stability through continuous operation.
 </div>
+
+<br/>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:6A0DAD&height=25" width="90%"/>
