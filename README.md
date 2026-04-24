@@ -20,7 +20,7 @@
 
 ---
 
-## Obsidian Stake
+# Obsidian Stake
 
 <div align="center">
 Obsidian Stake provides validator infrastructure focused on stability, security, and continuous network participation.<br/>
