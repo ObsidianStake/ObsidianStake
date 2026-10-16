@@ -1,119 +1,74 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=900&size=28&duration=3200&pause=900&color=A855F7&center=true&width=820&lines=Obsidian+Stake;Validator.+Network+Support.;Security+Guaranteed.;Engineered+for+Reliability." alt="Obsidian Stake Typing Animation" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-light.svg">
+  <img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg" width="100%" alt="Obsidian Stake: forged in the block">
+</picture>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-0D0D0D?style=for-the-badge&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/Uptime-High-0D0D0D?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Monitoring-24%2F7-0D0D0D?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Security-Hardened-0D0D0D?style=for-the-badge"/>
-</p>
+```console
+$ obsidian --whoami
+  guild      Obsidian Stake
+  signs      cosmoshub · zetachain · cheqd
+  watches    26 chains across 7 forges
+  front      TIA, live
+  runs on    bare metal
+```
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:6A0DAD&height=25" width="90%"/>
-</p>
+A validator guild that signs blocks and builds its own instruments: a chronicle of what chains actually ship, and a battlefield that shows a market's mood without a single chart.
 
----
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
-# Obsidian Stake
+## I · The Grid
 
-<div align="center">
-Obsidian Stake provides validator infrastructure focused on stability, security, and continuous network participation.<br/>
-Systems are operated with strict control over performance, updates, and risk exposure.<br/>
-</div>
+The chains the guild signs for. Commission, uptime and every governance vote are on-chain, so the explorer is the source of truth, not this page.
 
----
+| Network | Layer | Validator |
+|:--|:--|:--|
+| **Cosmos Hub** | Mainnet · ATOM | [`cosmosvaloper17p68…p6l53`](https://www.mintscan.io/cosmos/validators/cosmosvaloper17p68pwmc9kve6xqt0al5mnfak82dy53w6p6l53) |
+| **ZetaChain** | Mainnet · ZETA | [`zetavaloper10rsf…z6ycyq`](https://ping.pub/zetachain/staking/zetavaloper10rsfgjpc70myjlv3d252mmsewxucseh4z6ycyq) |
+| **cheqd** | Mainnet · decentralized ID | [`cheqdvaloper1y64h…t9m0n2`](https://explorer.nodestake.org/cheqd/staking/cheqdvaloper1y64hp0y5qlau3afnxaqu2lzhnnd3qpfqt9m0n2) |
 
-## Infrastructure
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
-<div align="center">
-Production-grade environment for validator execution and system reliability.<br/>
-Focus on uptime, observability, and controlled service operation.<br/>
-Core services are isolated, monitored, and optimized for continuous performance.<br/>
-</div>
+## II · Emberwatch
 
-<br/>
+<a href="https://obsidianstake.xyz/emberwatch/"><img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/emberwatch.svg" width="100%" alt="Emberwatch"></a>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-Operational-0D0D0D?style=for-the-badge&logo=linux&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/Docker-Managed-0D0D0D?style=for-the-badge&logo=docker&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/Prometheus-Metrics-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/Grafana-Visualization-0D0D0D?style=for-the-badge&logo=grafana&logoColor=B026FF"/>
-</p>
+Node and protocol releases, read straight from the repositories of 26 chains across 7 forges: modular & DA, parallel EVM, Move L1s, ZK, cross-chain, decentralized AI, DEX chains. Each entry says what changed: patch or minor, pre-release or not, whether it touches consensus or the RPC surface. No press-release paraphrasing.
 
----
+The chronicle is plain JSON underneath. Point a bot at it:
+[`articles.json`](https://obsidianstake.xyz/emberwatch/api/articles.json) every release, newest first ·
+[`projects.json`](https://obsidianstake.xyz/emberwatch/api/projects.json) chains and their repos ·
+[`categories.json`](https://obsidianstake.xyz/emberwatch/api/categories.json) the forges ·
+[`market.json`](https://obsidianstake.xyz/emberwatch/api/market.json) prices behind the ticker
 
-## Operations
+**→ [obsidianstake.xyz/emberwatch](https://obsidianstake.xyz/emberwatch/)**
 
-<div align="center">
-Validator operations are maintained through continuous monitoring and controlled execution.<br/>
-All changes are reviewed and tested before being deployed to the production environment.<br/>
-</div>
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
-<br/>
+## III · Celestia Fights
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Consensus-Stable-1A1A1A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Performance-Optimized-1A1A1A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Response-Fast-1A1A1A?style=for-the-badge"/>
-</p>
+<a href="https://obsidianstake.xyz/fightarea"><img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/fightarea.svg" width="100%" alt="Celestia Fights"></a>
 
----
+The live TIA trade stream, turned into a battle on a purple planet. Every buy sends a soldier from one side, every sell from the other, and the front line moves with the order flow. Orbit view for the whole planet, surface scan for the trenches.
 
-## Security
+**→ [obsidianstake.xyz/fightarea](https://obsidianstake.xyz/fightarea)**
 
-<div align="center">
-Infrastructure is designed to minimize operational risk and protect validator integrity.<br/>
-Key management and signing processes are isolated and strictly controlled.<br/>
-Security layers are continuously monitored for anomalies and failures.<br/>
-</div>
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
-<br/>
+## IV · The Anvil
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-TMKMS-0D0D0D?style=for-the-badge&logo=rust&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Key%20Management-0D0D0D?style=for-the-badge&logo=1password&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Hardening-0D0D0D?style=for-the-badge&logo=shield&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Monitoring-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
-</p>
+1. **Bare metal, not rented cloud.** Sentry nodes face the network; the signer stays behind them.
+2. **Keys never touch a public host.** Remote signing through TMKMS with double-sign protection.
+3. **Every node is watched.** Prometheus and Grafana, alerts on missed blocks, peers, disk and height lag.
+4. **Upgrades are rehearsed.** Testnet first, then applied at the governance height, not before.
 
----
+<sub>Linux · Docker · TMKMS · Prometheus · Grafana · Ansible · Go · Python</sub>
 
-## Stack
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
-<div align="center">
-Tooling for automation, integrations, and data-driven validator operations.<br/>
-Includes scripting, backend utilities, and AI-assisted workflows.<br/>
-</div>
+## V · The Pact
 
-<br/>
+> *Through fire, the stone is tempered. Through code, the network is secured.*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-Go-0D0D0D?style=for-the-badge&logo=go&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Python-0D0D0D?style=for-the-badge&logo=python&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Bash-0D0D0D?style=for-the-badge&logo=gnubash&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Git-0D0D0D?style=for-the-badge&logo=git&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-CI%2FCD-0D0D0D?style=for-the-badge&logo=githubactions&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-REST%20API-0D0D0D?style=for-the-badge&logo=fastapi&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-WebSocket-0D0D0D?style=for-the-badge&logo=socketdotio&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Automation-0D0D0D?style=for-the-badge&logo=ansible&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Logging-0D0D0D?style=for-the-badge&logo=elastic&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-Alerting-0D0D0D?style=for-the-badge&logo=prometheus&logoColor=B026FF"/>
-  <img src="https://img.shields.io/badge/-AI%20Assisted-0D0D0D?style=for-the-badge&logo=openai&logoColor=B026FF"/>
-</p>
+[obsidianstake.xyz](https://obsidianstake.xyz/) · [Instagram](https://www.instagram.com/obsidianstake) · [TikTok](https://www.tiktok.com/@obsidianstake)
 
----
-
-## Principles
-
-<div align="center">
-Reliability through discipline.<br/>
-Security through control.<br/>
-Stability through continuous operation.
-</div>
-
-<br/>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0D0D,100:6A0DAD&height=25" width="90%"/>
-</p>
