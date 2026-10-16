@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="45%">
+      <stop offset="0" stop-color="#C4B5FD" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#F7F3FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DDD0FB"/>
+      <stop offset="1" stop-color="#F7F3FF"/>
+    </linearGradient>
+    <style>
+      .t{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+      .star{fill:#7C3AED;animation:tw 3.2s ease-in-out infinite}
+      .s2{animation-delay:1.1s}.s3{animation-delay:2.2s}
+      @keyframes tw{0%,100%{opacity:.15}50%{opacity:.6}}
+      .core{animation:fl 5s ease-in-out infinite;transform-origin:600px 120px}
+      @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      .cur{animation:bl 1.1s steps(1) infinite}
+      @keyframes bl{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" fill="#F7F3FF"/>
+  <rect width="1200" height="360" fill="url(#glow)"/>
+
+  <g>
+    <rect class="star" x="84" y="42" width="3" height="3"/>
+    <rect class="star s2" x="212" y="118" width="2" height="2"/>
+    <rect class="star s3" x="318" y="58" width="3" height="3"/>
+    <rect class="star" x="436" y="26" width="2" height="2"/>
+    <rect class="star s2" x="772" y="40" width="3" height="3"/>
+    <rect class="star s3" x="868" y="104" width="2" height="2"/>
+    <rect class="star" x="980" y="30" width="2" height="2"/>
+    <rect class="star s2" x="1092" y="88" width="3" height="3"/>
+    <rect class="star s3" x="1140" y="166" width="2" height="2"/>
+    <rect class="star" x="52" y="174" width="2" height="2"/>
+    <rect class="star s3" x="150" y="226" width="2" height="2"/>
+    <rect class="star s2" x="1032" y="214" width="2" height="2"/>
+  </g>
+
+  <g fill="#A78BFA" opacity=".6">
+    <rect x="1050" y="34" width="24" height="6"/><rect x="1044" y="40" width="36" height="6"/>
+    <rect x="1040" y="46" width="44" height="18"/><rect x="1044" y="64" width="36" height="6"/>
+    <rect x="1050" y="70" width="24" height="6"/>
+  </g>
+
+  <g class="core">
+    <polygon points="600,58 652,88 600,118 548,88" fill="#A855F7"/>
+    <polygon points="548,88 600,118 600,178 548,148" fill="#4C1D95"/>
+    <polygon points="652,88 600,118 600,178 652,148" fill="#6D28D9"/>
+    <polygon points="600,82 618,92 600,102 582,92" fill="#1E0B3A" opacity=".55"/>
+    <polyline points="548,88 600,58 652,88" fill="none" stroke="#FFFFFF" stroke-width="2" opacity=".8"/>
+  </g>
+
+  <polygon points="0,360 0,300 70,272 140,290 230,250 320,286 410,262 470,282 540,256 600,270 660,252 740,284 830,258 900,280 990,248 1080,284 1150,266 1200,280 1200,360" fill="url(#ridge)"/>
+
+  <text x="600" y="222" text-anchor="middle" class="t" font-size="15" letter-spacing="9" fill="#6D28D9">OBSIDIAN STAKE</text>
+  <text x="600" y="276" text-anchor="middle" class="t" font-size="46" font-weight="800" letter-spacing="3" fill="#1E0B3A">FORGED IN THE BLOCK</text>
+  <text x="600" y="314" text-anchor="middle" class="t" font-size="14" letter-spacing="2" fill="#5B21B6">validator · chronicle · battlefront<tspan class="cur" fill="#1E0B3A"> _</tspan></text>
+</svg>

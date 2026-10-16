@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120">
+  <style>
+    .t{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    .n{font-size:38px;font-weight:800;fill:#F5EBFF}
+    .l{font-size:12px;letter-spacing:3px;fill:#A78BFA}
+  </style>
+  <rect x="1" y="1" width="1198" height="118" rx="4" fill="#0B0712" stroke="#3B1D6E" stroke-width="2"/>
+  <g fill="#7C3AED" opacity=".5">
+    <rect x="300" y="24" width="2" height="72"/><rect x="600" y="24" width="2" height="72"/><rect x="900" y="24" width="2" height="72"/>
+  </g>
+  <g class="t" text-anchor="middle">
+    <text x="150" y="64" class="n">3</text><text x="150" y="92" class="l">NETWORKS SIGNED</text>
+    <text x="450" y="64" class="n">26</text><text x="450" y="92" class="l">CHAINS WATCHED</text>
+    <text x="750" y="64" class="n">7</text><text x="750" y="92" class="l">FORGES</text>
+    <text x="1050" y="64" class="n">1</text><text x="1050" y="92" class="l">LIVE BATTLEFRONT</text>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 120" width="380" height="120">
+  <style>.t{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}</style>
+  <rect x="1" y="1" width="378" height="118" rx="6" fill="#0B0712" stroke="#3B1D6E" stroke-width="2"/>
+  <rect x="1" y="1" width="6" height="118" fill="#A855F7"/>
+  <g transform="translate(52 60)" fill="none" stroke="#C4B5FD" stroke-width="2">
+    <circle r="22"/>
+    <polyline points="-10,0 -3,8 11,-8" stroke-width="4"/>
+  </g>
+  <text x="96" y="52" class="t" font-size="20" font-weight="800" letter-spacing="2" fill="#F5EBFF">CHEQD</text>
+  <text x="96" y="76" class="t" font-size="11" letter-spacing="2" fill="#A78BFA">MAINNET · DECENTRALIZED ID</text>
+  <text x="96" y="98" class="t" font-size="11" fill="#7C3AED">nodestake →</text>
+</svg>
