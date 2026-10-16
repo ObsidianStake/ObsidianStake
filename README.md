@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-light.svg">
-  <img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg" width="100%" alt="Obsidian Stake: forged in the block">
-</picture>
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg" width="100%" alt="Obsidian Stake: forged in the block">
 
 ```console
 $ obsidian --whoami
@@ -71,4 +67,5 @@ The live TIA trade stream, turned into a battle on a purple planet. Every buy se
 > *Through fire, the stone is tempered. Through code, the network is secured.*
 
 [obsidianstake.xyz](https://obsidianstake.xyz/) · [Instagram](https://www.instagram.com/obsidianstake) · [TikTok](https://www.tiktok.com/@obsidianstake)
+
 
