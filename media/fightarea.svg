@@ -1,54 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
   <defs>
-    <radialGradient id="planet" cx="50%" cy="0%" r="90%">
+    <radialGradient id="planet" cx="50%" cy="0%" r="80%">
       <stop offset="0" stop-color="#A855F7"/>
-      <stop offset=".55" stop-color="#5B21B6"/>
+      <stop offset=".5" stop-color="#5B21B6"/>
       <stop offset="1" stop-color="#1E0B3A"/>
     </radialGradient>
-    <clipPath id="card"><rect x="1" y="1" width="598" height="318" rx="6"/></clipPath>
     <style>
       .t{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
-      .front{animation:sway 6s ease-in-out infinite}
-      @keyframes sway{0%,100%{transform:translateX(-18px)}50%{transform:translateX(18px)}}
-      .b{animation:bu 1.8s ease-in-out infinite}
-      .s{animation:bu 1.8s ease-in-out infinite .9s}
-      @keyframes bu{0%,100%{opacity:.35}50%{opacity:1}}
+      .front{animation:sway 7s ease-in-out infinite}
+      @keyframes sway{0%,100%{transform:translateX(-40px)}50%{transform:translateX(40px)}}
+      .b{animation:mb 2.2s ease-in-out infinite}
+      .s{animation:ms 2.2s ease-in-out infinite}
+      @keyframes mb{0%,100%{transform:translateX(0)}50%{transform:translateX(14px)}}
+      @keyframes ms{0%,100%{transform:translateX(0)}50%{transform:translateX(-14px)}}
+      .star{fill:#E9D5FF;animation:tw 3s ease-in-out infinite}
+      .s2{animation-delay:1.4s}
+      @keyframes tw{0%,100%{opacity:.2}50%{opacity:.9}}
     </style>
   </defs>
-  <g clip-path="url(#card)">
-    <rect width="600" height="320" fill="#0B0712"/>
-    <ellipse cx="300" cy="420" rx="460" ry="260" fill="url(#planet)"/>
-    <g stroke="#C4B5FD" stroke-opacity=".18" fill="none">
-      <ellipse cx="300" cy="420" rx="380" ry="200"/>
-      <ellipse cx="300" cy="420" rx="300" ry="150"/>
-      <ellipse cx="300" cy="420" rx="210" ry="100"/>
-    </g>
-    <!-- front line -->
-    <g class="front">
-      <rect x="299" y="168" width="3" height="152" fill="#F5EBFF" opacity=".85"/>
-      <rect x="296" y="168" width="9" height="3" fill="#F5EBFF"/>
-    </g>
-    <!-- buyers / sellers -->
-    <g class="b" fill="#4ADE80">
-      <rect x="150" y="214" width="6" height="6"/><rect x="176" y="240" width="6" height="6"/>
-      <rect x="130" y="262" width="6" height="6"/><rect x="204" y="226" width="6" height="6"/>
-      <rect x="228" y="268" width="6" height="6"/>
-    </g>
-    <g class="s" fill="#F87171">
-      <rect x="444" y="214" width="6" height="6"/><rect x="418" y="244" width="6" height="6"/>
-      <rect x="466" y="262" width="6" height="6"/><rect x="392" y="226" width="6" height="6"/>
-      <rect x="372" y="270" width="6" height="6"/>
-    </g>
+  <rect width="1200" height="300" fill="#0B0712"/>
+  <g>
+    <rect class="star" x="120" y="40" width="2" height="2"/><rect class="star s2" x="340" y="70" width="3" height="3"/>
+    <rect class="star" x="880" y="34" width="3" height="3"/><rect class="star s2" x="1060" y="90" width="2" height="2"/>
+    <rect class="star s2" x="700" y="24" width="2" height="2"/>
   </g>
-  <rect x="1" y="1" width="598" height="318" rx="6" fill="none" stroke="#3B1D6E" stroke-width="2"/>
+  <ellipse cx="600" cy="560" rx="760" ry="380" fill="url(#planet)"/>
+  <g stroke="#C4B5FD" stroke-opacity=".16" fill="none">
+    <ellipse cx="600" cy="560" rx="640" ry="300"/>
+    <ellipse cx="600" cy="560" rx="500" ry="230"/>
+    <ellipse cx="600" cy="560" rx="360" ry="160"/>
+  </g>
 
-  <text x="40" y="52" class="t" font-size="22" font-weight="800" letter-spacing="3" fill="#F5EBFF">CELESTIA FIGHTS</text>
-  <text x="40" y="72" class="t" font-size="12" fill="#A78BFA">every TIA trade is a soldier on the purple crust</text>
+  <g class="b" fill="#4ADE80">
+    <rect x="250" y="220" width="8" height="8"/><rect x="300" y="250" width="8" height="8"/>
+    <rect x="200" y="262" width="8" height="8"/><rect x="360" y="232" width="8" height="8"/>
+    <rect x="420" y="270" width="8" height="8"/><rect x="470" y="244" width="8" height="8"/>
+    <rect x="150" y="280" width="8" height="8"/>
+  </g>
+  <g class="s" fill="#F87171">
+    <rect x="942" y="220" width="8" height="8"/><rect x="892" y="252" width="8" height="8"/>
+    <rect x="992" y="264" width="8" height="8"/><rect x="832" y="232" width="8" height="8"/>
+    <rect x="772" y="272" width="8" height="8"/><rect x="722" y="246" width="8" height="8"/>
+    <rect x="1042" y="282" width="8" height="8"/>
+  </g>
+  <g class="front">
+    <rect x="598" y="182" width="4" height="118" fill="#F5EBFF"/>
+    <rect x="590" y="178" width="20" height="4" fill="#F5EBFF"/>
+  </g>
 
-  <g class="t" font-size="16" font-weight="800">
-    <rect x="216" y="98" width="168" height="34" rx="17" fill="#0B0712" stroke="#3B1D6E"/>
-    <text x="250" y="121" fill="#4ADE80" text-anchor="middle">▲ BUY</text>
-    <text x="300" y="121" fill="#A78BFA" text-anchor="middle" font-size="12">VS</text>
-    <text x="350" y="121" fill="#F87171" text-anchor="middle">SELL ▼</text>
+  <text x="600" y="70" text-anchor="middle" class="t" font-size="34" font-weight="800" letter-spacing="4" fill="#F5EBFF">CELESTIA FIGHTS</text>
+  <text x="600" y="100" text-anchor="middle" class="t" font-size="14" fill="#C4B5FD">every TIA trade is a soldier on the purple crust</text>
+
+  <g class="t" font-weight="800">
+    <text x="64" y="160" font-size="40" fill="#4ADE80">▲</text>
+    <text x="110" y="160" font-size="14" letter-spacing="3" fill="#4ADE80">BUYERS</text>
+    <text x="1136" y="160" text-anchor="end" font-size="40" fill="#F87171">▼</text>
+    <text x="1090" y="160" text-anchor="end" font-size="14" letter-spacing="3" fill="#F87171">SELLERS</text>
   </g>
 </svg>
