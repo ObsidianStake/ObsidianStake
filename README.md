@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg" width="100%" alt="Obsidian Stake: forged in the block">
+<img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/forge-dark.svg"?v=2 width="100%" alt="Obsidian Stake: forged in the block">
 
 ```console
 $ obsidian --whoami
