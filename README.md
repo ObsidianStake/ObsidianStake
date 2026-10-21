@@ -3,7 +3,8 @@
 ```console
 $ obsidian --whoami
   guild      Obsidian Stake
-  signs      cosmoshub · zetachain · cheqd
+  signs      cosmoshub · zetachain · cheqd · celestia (mocha)
+  serves     fibre
   watches    26 chains across 7 forges
   front      TIA, live
   runs on    bare metal
@@ -22,6 +23,9 @@ The chains the guild signs for. Commission, uptime and every governance vote are
 | **Cosmos Hub** | Mainnet · ATOM | [`cosmosvaloper17p68…p6l53`](https://www.mintscan.io/cosmos/validators/cosmosvaloper17p68pwmc9kve6xqt0al5mnfak82dy53w6p6l53) |
 | **ZetaChain** | Mainnet · ZETA | [`zetavaloper10rsf…z6ycyq`](https://ping.pub/zetachain/staking/zetavaloper10rsfgjpc70myjlv3d252mmsewxucseh4z6ycyq) |
 | **cheqd** | Mainnet · decentralized ID | [`cheqdvaloper1y64h…t9m0n2`](https://explorer.nodestake.org/cheqd/staking/cheqdvaloper1y64hp0y5qlau3afnxaqu2lzhnnd3qpfqt9m0n2) |
+| **Celestia** | Testnet · Mocha · Fibre | [`celestiavaloper17awy…a44vx24`](https://celestia-dashboard.krews.xyz/celestia-mocha/validators/celestiavaloper17awy8avky6rmnxketpf46dywegd86sla44vx24) |
+
+**Fibre on Mocha.** Celestia's Fibre is a new data availability lane served by validators themselves: each one runs a Fibre server and registers its host on-chain. Our Mocha validator runs one, so the guild is already part of that path while Fibre is tested ahead of mainnet.
 
 <img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
