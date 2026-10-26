@@ -5,6 +5,7 @@ $ obsidian --whoami
   guild      Obsidian Stake
   signs      cosmoshub · zetachain · cheqd · celestia (mocha) · verona (xion)
   serves     fibre
+  writes     github.com/ObsidianStake/celestia-fibre-runbook
   watches    26 chains across 7 forges
   front      TIA, live
   runs on    bare metal
@@ -16,7 +17,7 @@ A validator guild that signs blocks and builds its own instruments: a chronicle 
 
 ## I · The Grid
 
-The chains the guild signs for. Commission, uptime and every governance vote are on-chain, so the explorer is the source of truth, not this page.
+The chains the guild signs for. Every address below opens that validator in its explorer.
 
 | Network | Layer | Validator |
 |:--|:--|:--|
@@ -27,6 +28,8 @@ The chains the guild signs for. Commission, uptime and every governance vote are
 | **Verona** | Mainnet · XION | [`xionvaloper1ejeg…9895j3`](https://www.mintscan.io/verona/validators/xionvaloper1ejegxfsp4lg7jmwtmlyn99q4hlcc4sp59895j3) |
 
 **Fibre on Mocha.** Celestia's Fibre is a new data availability lane served by validators themselves: each one runs a Fibre server and registers its host on-chain. Our Mocha validator runs one, so the guild is already part of that path while Fibre is tested ahead of mainnet.
+
+How we run it, as an on-call runbook: **[celestia-fibre-runbook](https://github.com/ObsidianStake/celestia-fibre-runbook)**. Bring-up, registration, upgrades, object storage, remote signer, not-ready triage.
 
 <img src="https://raw.githubusercontent.com/ObsidianStake/ObsidianStake/main/media/divider.svg" width="100%" alt="">
 
@@ -72,7 +75,3 @@ The live TIA trade stream, turned into a battle on a purple planet. Every buy se
 > *Through fire, the stone is tempered. Through code, the network is secured.*
 
 [obsidianstake.xyz](https://obsidianstake.xyz/) · [Instagram](https://www.instagram.com/obsidianstake) · [TikTok](https://www.tiktok.com/@obsidianstake)
-
-
-
-
